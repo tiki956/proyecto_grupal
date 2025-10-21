@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Escolar 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>📅 Calendario Escolar 2025</h1>
+        <p>Explora todas las fechas y actividades importantes del año escolar</p>
+        <div id="contador-proximo" class="contador"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#calendario">Calendario</a></li>
+            <li><a href="#actividades">Descripción de las Actividades</a></li>
+            <li><a href="#creadores">Creadores</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="calendario">
+            <h2>📘 Fechas Importantes</h2>
+            <div class="tabla-container">
+                <table id="tabla-fechas">
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Evento</th>
+                            <th>Tipo</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="actividades">
+            <h2>📝 Descripción de las Actividades</h2>
+            <div class="cards" id="cards-actividades">
+                </div>
+        </section>
+
+        <section id="creadores">
+            <h2>👩‍💻 Creadores del Proyecto</h2>
+            <div class="creadores-container">
+                <div class="creador">
+                    <img src="imagen-carlos.jpg" alt="Avatar de Carlos Silva">
+                    <h3>Carlos Silva</h3>
+                    <p>Desarrollador Frontend</p>
+                </div>
+                <div class="creador">
+                    <img src[imagen-isaac.jpg] alt="Avatar de Isaac Rodriguez">
+                    <h3>Isaac Rodriguez</h3>
+                    <p>Desarrollador Frontend</p>
+                </div>
+                <div class="creador">
+                    <img src[imagen-ricardo.jpg] alt="Avatar de Ricardo Gareca">
+                    <h3>Ricardo Gareca</h3>
+                    <p>Desarrollador Frontend</p>
+                </div>
+                <div class="creador">
+                    <img src="imagen-isaura.jpg" alt="Avatar de Isaura Cardenas">
+                    <h3>Isaura Cardenas</h3>
+                    <p>Product Owner</p>
+                </div>
+                <div class="creador">
+                    <img src="imagen-antonio.jpg" alt="Avatar de Antonio Saavedra">
+                    <h3>Antonio Saavedra</h3>
+                    <p>Scrum Master</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Unidad Educativa Juana Azurduy De Padilla | Proyecto: Taller Ágil - Scrum</p>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="cerrar-modal" class="cerrar">&times;</span>
+            <h3 id="modal-fecha"></h3>
+            <h4 id="modal-evento"></h4>
+            <p id="modal-descripcion"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
